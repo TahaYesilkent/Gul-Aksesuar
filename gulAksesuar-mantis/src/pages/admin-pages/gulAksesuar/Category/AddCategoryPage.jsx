@@ -54,7 +54,7 @@ const AddCategory = ({ open, onClose }) => {
     if (res?.error) {
       toast.error('Kategori eklenemedi!');
     } else {
-      toast.success('Kategori başarıyla eklendi!');
+      toast.success('Kategori başarıyla eklendi!!!');
       setFormData({ name: '', slug: '' });
       onClose();
       fetchCategories();
